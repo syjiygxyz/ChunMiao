@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/single_line"></include>
+    <LinearLayout
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/cb_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"/>
+
+        <TextView
+            android:id="@+id/tv_plan"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="方案"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_jt"
+            android:layout_width="13dp"
+            android:layout_height="8dp"
+            android:background="@mipmap/xajtaz"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    <include layout="@layout/single_line"></include>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_detail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

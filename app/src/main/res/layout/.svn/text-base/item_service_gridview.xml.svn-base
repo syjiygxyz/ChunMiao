@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout_service"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dip"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/iv_service_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/iv_service_icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        />
+
+    <TextView
+        android:id="@+id/tv_service_gridview"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+        <com.ayj.chunmiao.view.AddAndSub.MyAddAndSubView
+            android:id="@+id/addsub_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:min="0"
+            app:max="100"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/cb_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"/>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/backgroundfull"
+    tools:context="com.ayj.chunmiao.activity.khq.zsjm.PartnerActivity">
+    <include layout="@layout/common_title_layout"></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logohhr"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_agent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/touminganniu"
+            android:layout_marginTop="12dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/dailisc"
+                android:layout_marginLeft="16dip"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我要代理"
+                android:textSize="18dip"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dip"
+            android:layout_marginLeft="64dip"
+            android:layout_marginRight="64dip"
+            >
+
+            <TextView
+                android:id="@+id/tv_or2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or"
+                android:textSize="20dip"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="96dip"
+                android:layout_height="1dip"
+                android:background="@color/white"
+                android:layout_toLeftOf="@id/tv_or2"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dip"/>
+
+            <TextView
+                android:layout_width="96dip"
+                android:layout_height="1dip"
+                android:background="@color/white"
+                android:layout_toRightOf="@id/tv_or2"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dip"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_joinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/touminganniu"
+            android:layout_marginTop="12dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/xianxiawd"
+                android:layout_marginLeft="16dip"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我要加盟"
+                android:textSize="18dip"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

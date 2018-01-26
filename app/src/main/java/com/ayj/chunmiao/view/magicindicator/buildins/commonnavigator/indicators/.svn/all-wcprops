@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/magicindicator/buildins/commonnavigator/indicators
+END
+LinePagerIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/magicindicator/buildins/commonnavigator/indicators/LinePagerIndicator.java
+END
+TestPagerIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/magicindicator/buildins/commonnavigator/indicators/TestPagerIndicator.java
+END
+BezierPagerIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/magicindicator/buildins/commonnavigator/indicators/BezierPagerIndicator.java
+END
+WrapPagerIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/magicindicator/buildins/commonnavigator/indicators/WrapPagerIndicator.java
+END
+TriangularPagerIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/magicindicator/buildins/commonnavigator/indicators/TriangularPagerIndicator.java
+END

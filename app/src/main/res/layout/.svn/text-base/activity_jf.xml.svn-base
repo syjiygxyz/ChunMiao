@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.ayj.chunmiao.activity.kc.jf.JfActivity">
+
+    <include layout="@layout/common_title_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:id="@+id/tv_content_yl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/dp_8"
+                android:text="平台产生量:"
+                android:textColor="@color/edit_text"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btn_mx_yl"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/blue_button_background"
+                android:gravity="center"
+                android:text="明细"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <include layout="@layout/single_line" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:id="@+id/tv_content_xs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/dp_8"
+                    android:text="线上已兑换量:"
+                    android:textColor="@color/edit_text"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/btn_mx_xs"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/blue_button_background"
+                    android:gravity="center"
+                    android:text="明细"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <include layout="@layout/single_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:id="@+id/tv_content_xx"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/dp_8"
+                    android:text="线下已兑换量:"
+                    android:textColor="@color/edit_text"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/btn_mx_xx"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/blue_button_background"
+                    android:gravity="center"
+                    android:text="明细"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_title_xxzl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_gray"
+                android:padding="@dimen/dp_15"
+                android:text="库存余量:"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

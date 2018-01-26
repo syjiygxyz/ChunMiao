@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dip">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_equipment_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        android:orientation="horizontal"
+        android:background="#E6E6E6"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/lvseyuand"/>
+
+        <TextView
+            android:id="@+id/tv_equipment_group"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:text="设备组1"
+            android:textSize="16dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dip"/>
+
+        <ImageView
+            android:id="@+id/iv_equipment_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/delete_sign"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <com.ayj.chunmiao.view.MyGridview
+        android:id="@+id/gridView_equipment_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.ayj.chunmiao.activity.menbermanage.MyDyDetailsActivity">
+    <include layout="@layout/common_title_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dip"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imgUserIcon"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:src="@mipmap/menber_loading"
+            />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="40dip"
+            android:layout_toRightOf="@+id/imgUserIcon"
+            android:text="艾伦"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/ivUserVip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvUserPhoneNumber"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/gray_button_background"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="冻结账号"
+            android:textColor="@drawable/alert_dialog_cancel_color"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tvUserPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="75dip"
+            android:layout_toRightOf="@+id/imgUserIcon"
+            android:text="账号：13432324321"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/dark_gray"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="时间"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="服务类型"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/pcf_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <cn.finalteam.loadingviewfinal.RecyclerViewFinal
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            app:noLoadMoreHideView="true"
+            android:background="@color/white"
+            />
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+</LinearLayout>

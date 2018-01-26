@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ayj.chunmiao.activity.myinformation.dashang.ZwActivity">
+    <include layout="@layout/common_title_layout"/>
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/pcf_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <cn.finalteam.loadingviewfinal.RecyclerViewFinal
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            app:noLoadMoreHideView="true"
+            android:background="@color/dark_gray"
+            />
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+</LinearLayout>

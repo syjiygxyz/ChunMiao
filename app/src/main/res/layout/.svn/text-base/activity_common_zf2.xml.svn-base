@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+   <include layout="@layout/common_title_layout"/>
+    <ImageView
+        android:id="@+id/iv_order_baoxian"
+        android:layout_width="318dp"
+        android:layout_height="18dp"
+        android:background="@mipmap/zx4"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dip"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付方式"
+                android:textSize="16dip"
+                android:layout_marginTop="32dip"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dip"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_order_paywx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@mipmap/zhifufangshi_weixin"
+                    android:text="微信"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/tv_order_payali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@mipmap/zhifufangshi_zhifubao"
+                    android:text="支付宝"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="32dip"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温馨提示：第三方支付必须登录APP客户端方可支付"
+                android:textSize="12dip"
+                android:textColor="@color/titleLimitToBuy"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dip"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dip"
+            android:layout_marginLeft="60dip"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_order_orderid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保单号：90"
+                android:textSize="16dip"
+                />
+
+            <TextView
+                android:id="@+id/tv_order_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dip"
+                android:text="应付价格：1"
+                android:layout_marginTop="16dip"
+                />
+
+            <TextView
+                android:id="@+id/tv_order_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dip"
+                android:text="保险名称：乐友人生境外旅行救援包"
+                android:layout_marginTop="16dip"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/czjr_click" android:state_checked="true"></item>
+    <item android:drawable="@mipmap/czjr_no_click" android:state_checked="false"></item>
+
+</selector>

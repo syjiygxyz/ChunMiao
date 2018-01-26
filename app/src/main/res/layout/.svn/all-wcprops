@@ -1,0 +1,1643 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MYSVN/!svn/ver/2594/trunk/21ga_ios/ChunMiao/app/src/main/res/layout
+END
+item_package1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_package1.xml
+END
+common_hyk_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1715/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/common_hyk_head.xml
+END
+qdpd_yy_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/qdpd_yy_item.xml
+END
+fragment_yg_manger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_yg_manger.xml
+END
+activity_dzc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_dzc.xml
+END
+dh_main_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2591/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dh_main_item.xml
+END
+activity_fwq_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_fwq_detail.xml
+END
+pyq_sheet_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pyq_sheet_layout.xml
+END
+image_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/1715/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/image_show.xml
+END
+fragment_cz_add_hyk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1868/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_cz_add_hyk.xml
+END
+activity_cxj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1774/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_cxj.xml
+END
+activity_xhj_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xhj_detail.xml
+END
+item_my_yy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_my_yy.xml
+END
+item_jink.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_jink.xml
+END
+item_cxj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_cxj.xml
+END
+common_sp_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/common_sp_list.xml
+END
+sb_gl_first_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/sb_gl_first_item.xml
+END
+activity_common_bx_post_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_bx_post_one.xml
+END
+activity_md_lx_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_md_lx_detail.xml
+END
+dh_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dh_item.xml
+END
+tx_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/tx_item.xml
+END
+cmbz_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MYSVN/!svn/ver/2561/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/cmbz_item.xml
+END
+dialog_yes_no.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1717/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dialog_yes_no.xml
+END
+item_shop_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_shop_order.xml
+END
+item_insurance_feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_feedback.xml
+END
+activity_zhang_hao_an_quan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1900/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_zhang_hao_an_quan.xml
+END
+activity_hc_cg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1879/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_hc_cg.xml
+END
+layout_basepickerview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/layout_basepickerview.xml
+END
+activity_frs_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_frs_details.xml
+END
+pickerview_time3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pickerview_time3.xml
+END
+fragment_sb_manger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_sb_manger.xml
+END
+item_linjia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_linjia.xml
+END
+item_ljbj1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_ljbj1.xml
+END
+fragment_main_head_fwy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_main_head_fwy.xml
+END
+activity_bank_acount.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/2108/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_bank_acount.xml
+END
+umeng_socialize_oauth_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MYSVN/!svn/ver/2112/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/umeng_socialize_oauth_dialog.xml
+END
+my_custom_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/my_custom_dialog.xml
+END
+item_vehicle_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_vehicle_info.xml
+END
+xy_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/xy_item.xml
+END
+item_viewpager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_viewpager.xml
+END
+qd_one_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/qd_one_text.xml
+END
+activity_yyb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_yyb.xml
+END
+xhj_hc_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/xhj_hc_item.xml
+END
+activity_insurance_pay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_pay.xml
+END
+item_shopping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_shopping.xml
+END
+item_yyb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_yyb.xml
+END
+activity_my_center.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/2059/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_my_center.xml
+END
+common_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2561/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/common_grid_item.xml
+END
+item_service_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_service_order.xml
+END
+item_xhj_cg_buynow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1848/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_xhj_cg_buynow.xml
+END
+item_service_order2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_service_order2.xml
+END
+item_address_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1687/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_address_dialog.xml
+END
+my_sheet_recycler_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/my_sheet_recycler_item.xml
+END
+activity_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_setting.xml
+END
+lx_class_sheet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2053/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/lx_class_sheet.xml
+END
+activity_lxd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2108/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_lxd.xml
+END
+item_lxd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_lxd.xml
+END
+item_memberservice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_memberservice.xml
+END
+common_jf_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1780/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/common_jf_head.xml
+END
+fwq_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fwq_item.xml
+END
+fragment_cg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_cg.xml
+END
+yy_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/yy_list_item.xml
+END
+activity_my_bx_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_my_bx_detail.xml
+END
+item_jf_xx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/2044/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_jf_xx.xml
+END
+activity_xsls_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xsls_detail.xml
+END
+include_pickerview_topbar1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/include_pickerview_topbar1.xml
+END
+xsls_detail_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/xsls_detail_item.xml
+END
+item_chxd_dh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_chxd_dh.xml
+END
+qdpd_qd_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/qdpd_qd_item.xml
+END
+activity_change_pay_pwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_change_pay_pwd.xml
+END
+activity_xhj_cg_dan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1848/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xhj_cg_dan.xml
+END
+activity_common_bx_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_bx_list_fragment.xml
+END
+dh_money_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dh_money_item.xml
+END
+activity_bdcz_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_bdcz_main.xml
+END
+activity_cmxd_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_cmxd_main.xml
+END
+item_shop_member.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_shop_member.xml
+END
+fragment_daseb_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_daseb_his.xml
+END
+device_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2486/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/device_item.xml
+END
+activity_md_manage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_md_manage.xml
+END
+activity_jf_mx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2321/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jf_mx.xml
+END
+custom_add_new_menber.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/custom_add_new_menber.xml
+END
+progress_hud.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/progress_hud.xml
+END
+device_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2486/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/device_list.xml
+END
+czy_zf_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/czy_zf_item.xml
+END
+fragment_lxd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_lxd.xml
+END
+xsls_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/xsls_item.xml
+END
+fragment_czjr_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1868/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_czjr_add.xml
+END
+item_service_select.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_service_select.xml
+END
+jh_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/jh_item.xml
+END
+item_bxcsxz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_bxcsxz.xml
+END
+activity_shop_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2191/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_shop_order.xml
+END
+activity_insurance_feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_feedback.xml
+END
+fragment_dasw_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_dasw_his.xml
+END
+activity_khq.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_khq.xml
+END
+item_notice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_notice.xml
+END
+quick_view_load_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/quick_view_load_more.xml
+END
+dialog_card_appointment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dialog_card_appointment.xml
+END
+activity_cz_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1868/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_cz_add.xml
+END
+item_insurance_broker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_broker.xml
+END
+fragment_xhj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1848/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_xhj.xml
+END
+main_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/main_dialog.xml
+END
+activity_hyk_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_hyk_main.xml
+END
+activity_insurance_broker_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MYSVN/!svn/ver/1858/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_broker_show.xml
+END
+activity_lxsh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2003/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_lxsh.xml
+END
+activity_union_share_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_union_share_his.xml
+END
+activity_demo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_demo.xml
+END
+pay_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/1678/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pay_result.xml
+END
+activity_cg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1687/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_cg.xml
+END
+activity_money_ls.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/2003/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_money_ls.xml
+END
+item_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_city.xml
+END
+activity_partner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1774/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_partner.xml
+END
+activity_get_pwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2501/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_get_pwd.xml
+END
+fragment_sj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_sj.xml
+END
+item_pj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_pj.xml
+END
+item_insurance_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1712/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_main.xml
+END
+pay_way_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2044/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pay_way_view.xml
+END
+item_mybx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_mybx.xml
+END
+activity_yy_post.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_yy_post.xml
+END
+activity_my_bzj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/2003/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_my_bzj.xml
+END
+activity_dh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_dh.xml
+END
+item_ticket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_ticket.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2501/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_login.xml
+END
+activity_tx_acount.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/2108/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_tx_acount.xml
+END
+activity_das_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_das_his.xml
+END
+item_lx_sh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_lx_sh.xml
+END
+item_insurance_plan_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_plan_main.xml
+END
+activity_about_us.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_about_us.xml
+END
+activity_lx_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2315/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_lx_list.xml
+END
+item_shopcart.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_shopcart.xml
+END
+activity_dash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_dash.xml
+END
+activity_qq_pd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1843/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_qq_pd.xml
+END
+activity_kc_xhj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1843/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_kc_xhj.xml
+END
+view_password_input_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1706/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/view_password_input_layout.xml
+END
+activity_insurance_paytype.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1712/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_paytype.xml
+END
+subview_edittext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1841/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/subview_edittext.xml
+END
+activity_yy_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2561/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_yy_details.xml
+END
+item_bxcontentlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_bxcontentlist.xml
+END
+add_new_menber.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/add_new_menber.xml
+END
+txl_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/txl_head.xml
+END
+activity_tc_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_tc_main.xml
+END
+item_awardeb_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_awardeb_his.xml
+END
+fragment_kc_xhj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/2486/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_kc_xhj.xml
+END
+activity_common_shopping_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MYSVN/!svn/ver/1810/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_shopping_detail.xml
+END
+item_insurance_company.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_company.xml
+END
+activity_zw.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_zw.xml
+END
+dialog_choose.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1774/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dialog_choose.xml
+END
+activity_lx_ht.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_lx_ht.xml
+END
+activity_insurance_company_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_company_show.xml
+END
+pickerview_time1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pickerview_time1.xml
+END
+activity_xhj_cg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1966/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xhj_cg.xml
+END
+activity_card_yy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_card_yy.xml
+END
+activity_dasw_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/2315/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_dasw_detail.xml
+END
+item_insurance_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_detail.xml
+END
+activity_md_lx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_md_lx.xml
+END
+khq_head_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/khq_head_detail.xml
+END
+activity_bx_zf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_bx_zf.xml
+END
+activity_xjk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xjk.xml
+END
+alert_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/alert_dialog.xml
+END
+single_line.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1695/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/single_line.xml
+END
+item_cg_xhj_cgd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1841/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_cg_xhj_cgd.xml
+END
+pop_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pop_menu.xml
+END
+pager_navigator_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pager_navigator_layout.xml
+END
+hc_post_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1871/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/hc_post_item.xml
+END
+sb_yz_passw_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/sb_yz_passw_dialog.xml
+END
+activity_apply_employee.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_apply_employee.xml
+END
+bx_sj_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/bx_sj_item.xml
+END
+activity_service_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_service_order.xml
+END
+fragment_shop_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2191/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_shop_order.xml
+END
+activity_das_eb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/2236/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_das_eb.xml
+END
+activity_splash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_splash.xml
+END
+pager_navigator_layout_no_scroll.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/pager_navigator_layout_no_scroll.xml
+END
+item_package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_package.xml
+END
+activity_common_sp_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_sp_list.xml
+END
+item_lx_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_lx_shop.xml
+END
+activity_custom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_custom.xml
+END
+fragment_wj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_wj.xml
+END
+main_dialog_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/main_dialog_item.xml
+END
+activity_add_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1697/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_add_address.xml
+END
+item_jf_plat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2321/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_jf_plat.xml
+END
+activity_cz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1678/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_cz.xml
+END
+activity_bzj_zf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_bzj_zf.xml
+END
+layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/layout.xml
+END
+activity_jf_cz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2044/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jf_cz.xml
+END
+activity_insurance_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_main.xml
+END
+activity_insurance_car_set_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/1882/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_car_set_order.xml
+END
+item_lx_class.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_lx_class.xml
+END
+activity_hc_post.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/1871/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_hc_post.xml
+END
+activity_jkyanzheng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2108/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jkyanzheng.xml
+END
+item_money_change.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_money_change.xml
+END
+activity_insurance_car.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/2003/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_car.xml
+END
+kc_xhj_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2486/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/kc_xhj_item.xml
+END
+include_pickerview_topbar3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/include_pickerview_topbar3.xml
+END
+activity_dai_li.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1885/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_dai_li.xml
+END
+activity_common_bx_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_bx_list.xml
+END
+common_title_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/2561/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/common_title_layout.xml
+END
+item_stock_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/2191/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_stock_detail.xml
+END
+fragment_xhj_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1843/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_xhj_item.xml
+END
+fragment_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1776/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_main.xml
+END
+item_yyb_recycler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_yyb_recycler.xml
+END
+fragment_xjk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2044/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_xjk.xml
+END
+item_cg_xhj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1810/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_cg_xhj.xml
+END
+activity_my_information_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_my_information_details.xml
+END
+item_membercard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1715/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_membercard.xml
+END
+item_cg_xhj_hor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1858/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_cg_xhj_hor.xml
+END
+activity_xg_pass_word.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xg_pass_word.xml
+END
+key_board_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1706/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/key_board_item_view.xml
+END
+activity_czy_zf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_czy_zf.xml
+END
+activity_my_dy_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_my_dy_details.xml
+END
+cz_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1780/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/cz_item.xml
+END
+activity_ykfx_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1780/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_ykfx_detail.xml
+END
+item_service_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_service_gridview.xml
+END
+item_equipment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_equipment.xml
+END
+item_equipment_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_equipment_group.xml
+END
+activity_common_zf2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_zf2.xml
+END
+subview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/subview.xml
+END
+yyb_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/yyb_dialog.xml
+END
+activity_jb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2321/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jb.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_main.xml
+END
+activity_updata_shop_pay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MYSVN/!svn/ver/2053/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_updata_shop_pay.xml
+END
+activity_jf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2321/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jf.xml
+END
+activity_fwq_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_fwq_list.xml
+END
+my_menber_detail_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/my_menber_detail_item.xml
+END
+umeng_socialize_share.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/2112/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/umeng_socialize_share.xml
+END
+activity_cmbz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_cmbz.xml
+END
+activity_insurance_price.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_price.xml
+END
+item_insurance_price.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_insurance_price.xml
+END
+choose_work_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/choose_work_group.xml
+END
+activity_common_bx_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_bx_details.xml
+END
+activity_news.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_news.xml
+END
+activity_wj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2235/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_wj.xml
+END
+activity_ykfx_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_ykfx_main.xml
+END
+activity_my_bx_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_my_bx_list.xml
+END
+item_award_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2315/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_award_his.xml
+END
+dialog_add_shopcar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1687/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dialog_add_shopcar.xml
+END
+activity_xsjl_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xsjl_main.xml
+END
+activity_common_bx_post_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_bx_post_detail.xml
+END
+activity_lxsb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2112/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_lxsb.xml
+END
+activity_vehicle_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_vehicle_info.xml
+END
+activity_service_introduction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_service_introduction.xml
+END
+socialize_share_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MYSVN/!svn/ver/2112/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/socialize_share_menu_item.xml
+END
+activity_stock_order_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_stock_order_detail.xml
+END
+activity_jia_meng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1885/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jia_meng.xml
+END
+activity_foot_yyb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_foot_yyb.xml
+END
+activity_bx_bd_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_bx_bd_show.xml
+END
+activity_xiao_xi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xiao_xi.xml
+END
+activity_tc_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_tc_details.xml
+END
+tab_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/tab_item_view.xml
+END
+activity_xhj_buy_now.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/2407/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_xhj_buy_now.xml
+END
+activity_jkcz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/2108/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_jkcz.xml
+END
+cl_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/cl_item.xml
+END
+activity_hc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_hc.xml
+END
+item_company_insurance_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_company_insurance_main.xml
+END
+item_head_yy_post.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_head_yy_post.xml
+END
+item_guige.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MYSVN/!svn/ver/1687/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_guige.xml
+END
+activity_insurance_advice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MYSVN/!svn/ver/1700/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_insurance_advice.xml
+END
+activity_common_cl_form.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_cl_form.xml
+END
+fragment_cl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_cl.xml
+END
+item_dashangwu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/item_dashangwu.xml
+END
+activity_yd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_yd.xml
+END
+activity_lx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2003/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_lx.xml
+END
+activity_kc_xhc_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/2594/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_kc_xhc_details.xml
+END
+activity_hyk_zf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_hyk_zf.xml
+END
+dialog_zq_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1687/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/dialog_zq_address.xml
+END
+yyb_yd_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/yyb_yd_item.xml
+END
+activity_sfz_no_regist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_sfz_no_regist.xml
+END
+activity_hyk_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MYSVN/!svn/ver/1715/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_hyk_details.xml
+END
+activity_bx_ljtb2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_bx_ljtb2.xml
+END
+activity_common_view_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1835/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_view_pager.xml
+END
+activity_common_gwc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1706/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_gwc.xml
+END
+activity_common_zf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MYSVN/!svn/ver/1706/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_common_zf.xml
+END
+jk_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/jk_item.xml
+END
+activity_union_share_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/2301/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/activity_union_share_detail.xml
+END
+fragment_qdpd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/res/layout/fragment_qdpd.xml
+END

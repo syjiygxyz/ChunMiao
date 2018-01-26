@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_sheet_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/my_sheet_selector"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/my_sheet_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:gravity="center"
+        android:textColor="#3269d9"
+        android:text="内容"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d7d7d7" />
+
+</LinearLayout>

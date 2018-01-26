@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MYSVN/!svn/ver/2519/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view
+END
+CustomPopWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/1754/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/CustomPopWindow.java
+END
+MyListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/MyListView.java
+END
+ZoomOutPageTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/ZoomOutPageTransformer.java
+END
+CustomLinearLayoutManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MYSVN/!svn/ver/1776/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/CustomLinearLayoutManager.java
+END
+PayWayView.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/2044/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/PayWayView.java
+END
+ProgressHUD.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/ProgressHUD.java
+END
+ClearEditText.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/ClearEditText.java
+END
+SwipeMenuView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MYSVN/!svn/ver/2108/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/SwipeMenuView.java
+END
+DividerItemDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/DividerItemDecoration.java
+END
+NumberButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MYSVN/!svn/ver/1678/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/NumberButton.java
+END
+StickyScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MYSVN/!svn/ver/2349/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/StickyScrollView.java
+END
+OperatePopupWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/OperatePopupWindow.java
+END
+SmartImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/SmartImageView.java
+END
+MyGridview.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/MyGridview.java
+END
+MyLayoutManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/1858/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/MyLayoutManager.java
+END
+PayWayPopupWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MYSVN/!svn/ver/2601/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/PayWayPopupWindow.java
+END
+RoundImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/RoundImageView.java
+END
+CountDownButtonHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/CountDownButtonHelper.java
+END

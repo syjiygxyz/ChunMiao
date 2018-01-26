@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:background="@drawable/ripple_bg"
+    android:focusable="true"
+    android:clickable="true"
+    >
+    <ImageView
+        android:id="@+id/iv_foot_zq_shopcart"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20dp"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_foot_shopcart_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_8"
+            android:text="name"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tv_foot_shopcart_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="春苗店："
+            android:layout_marginTop="10dp"
+            android:textColor="@color/titleLimitToBuy"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/tv_foot_shopcart_guige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="规格："
+            android:textColor="@color/titleLimitToBuy"
+            android:visibility="gone"
+            android:textSize="14dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_foot_shopcart_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/errorColor"
+                android:textSize="18dp"
+                 />
+            <TextView
+            android:id="@+id/tv_foot_shopcart_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="×1"
+            android:textSize="20dip"
+            />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

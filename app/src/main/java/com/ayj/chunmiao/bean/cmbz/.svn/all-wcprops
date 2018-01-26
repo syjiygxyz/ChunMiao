@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz
+END
+UserPerson.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/UserPerson.java
+END
+InsurancePriceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MYSVN/!svn/ver/1836/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/InsurancePriceBean.java
+END
+InsuranceBrandBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MYSVN/!svn/ver/1882/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/InsuranceBrandBean.java
+END
+VehicleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MYSVN/!svn/ver/1836/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/VehicleBean.java
+END
+MemberCardService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/MemberCardService.java
+END
+UserTicket.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MYSVN/!svn/ver/2323/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/UserTicket.java
+END
+MyMemberCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/MyMemberCard.java
+END
+ServicePriceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/ServicePriceBean.java
+END
+PackageContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MYSVN/!svn/ver/1723/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/PackageContent.java
+END
+InsuranceBrokerBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/InsuranceBrokerBean.java
+END
+InsuranceCompanyBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/InsuranceCompanyBean.java
+END
+InsurancePlanBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/InsurancePlanBean.java
+END
+YybBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MYSVN/!svn/ver/1895/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/bean/cmbz/YybBean.java
+END

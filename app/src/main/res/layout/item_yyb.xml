@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dip"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_yyb_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/cz_xiangxia"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dip"/>
+
+    <com.ayj.chunmiao.view.MyGridview
+        android:id="@+id/gridView_yyb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

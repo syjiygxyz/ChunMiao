@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_zq_address_back"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:focusable="true"
+        android:selectAllOnFocus="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择收货地址"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dip"/>
+
+        <ImageView
+            android:id="@+id/iv_zq_address_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/zkp_guanbi"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dip"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/titleLimitToBuy"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_dialog_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeLayout_zq_address_back"
+        android:listSelector="@android:color/transparent"
+        android:gravity="center"
+        android:layout_above="@+id/btn_dialog_addaddress" />
+
+    <Button
+        android:id="@+id/btn_dialog_addaddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="新增收货地址"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_dialog_kuang2"/>
+
+</RelativeLayout>

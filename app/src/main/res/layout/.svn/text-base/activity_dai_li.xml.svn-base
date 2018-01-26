@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical"
+    tools:context="com.ayj.chunmiao.activity.khq.zsjm.DaiLiActivity">
+
+    <include layout="@layout/common_title_layout"></include>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_10">
+
+        <ImageView
+            android:layout_width="70dip"
+            android:layout_height="40dip"
+            android:src="@mipmap/zc_logo1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dip"
+            android:text="康乐小屋服务代理申请表"
+            android:textSize="18dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="姓名"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/MatchWidthEditText"
+            android:hint="请输入姓名" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="性别"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tv_sex"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/edit_hint"
+            android:text="点击选择性别"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="常用邮箱"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/MatchWidthEditText"
+            android:hint="请输入邮箱" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="银行卡号"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_bank_no"
+            style="@style/MatchWidthEditText"
+            android:inputType="number"
+            android:hint="请输入银行卡号" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="开户银行"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_bank_addr"
+            style="@style/MatchWidthEditText"
+            android:hint="请输入开户银行" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="联系方式"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_phone"
+            style="@style/MatchWidthEditText"
+            android:hint="请输入联系方式" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:drawableRight="@mipmap/required"
+            android:text="身份证号"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_carno"
+            style="@style/MatchWidthEditText"
+            android:inputType="number"
+            android:hint="请输入身份证号" />
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:text="邀请人账号"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_yaoqing"
+            style="@style/MatchWidthEditText"
+            android:layout_marginLeft="15dp"
+            android:hint="请输入邀请人账号"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:text="下级代理账号"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_aaccount"
+            style="@style/MatchWidthEditText"
+            android:layout_marginLeft="15dp"
+            android:hint="请输入下级代理A账号"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <include layout="@layout/single_line"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MatchWidthEditText"
+            android:textColor="@color/blackText"
+            android:text="下级代理账号"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_baccount"
+            style="@style/MatchWidthEditText"
+            android:layout_marginLeft="15dp"
+            android:hint="请输入下级代理B账号"
+            android:inputType="number"/>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_zm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/tjsfz"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="身份证正面"/>
+
+            <TextView
+                android:id="@+id/tv_fm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/tjsfz"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="身份证反面" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:drawablePadding="8dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="阅读协议"
+                android:drawableLeft="@mipmap/wydl_sanjiao"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="（请认真阅读代理协议）"
+                android:textSize="12dip"
+                android:layout_marginLeft="4dip"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/addrUnDefault"
+            android:layout_marginTop="8dip"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="经阅读本人同意"/>
+
+            <TextView
+                android:id="@+id/tv_agency_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《用户代理协议》"
+                android:textColor="@color/pickerview_timebtn_nor" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_bt_no_corner"
+        android:padding="@dimen/dp_10"
+        android:text="提交申请"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1
+END
+InertiaTimerTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/InertiaTimerTask.java
+END
+PickerViewAnimateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/PickerViewAnimateUtil.java
+END
+SmoothScrollTimerTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/SmoothScrollTimerTask.java
+END
+WheelTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/WheelTime.java
+END
+MessageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/MessageHandler.java
+END
+NumericWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/NumericWheelAdapter.java
+END
+OnItemSelectedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/OnItemSelectedListener.java
+END
+WheelView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/WheelView.java
+END
+TimePickerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MYSVN/!svn/ver/1770/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/TimePickerView.java
+END
+OnDismissListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/OnDismissListener.java
+END
+OnItemSelectedRunable.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/OnItemSelectedRunable.java
+END
+BasePickView.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/BasePickView.java
+END
+WheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/WheelAdapter.java
+END
+LoopViewGestureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/LoopViewGestureListener.java
+END
+PickerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/view/TimePicker1/PickerView.java
+END

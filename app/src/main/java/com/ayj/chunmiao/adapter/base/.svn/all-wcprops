@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/adapter/base
+END
+BaseMultiItemQuickAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/adapter/base/BaseMultiItemQuickAdapter.java
+END
+BaseItemDraggableAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/adapter/base/BaseItemDraggableAdapter.java
+END
+BaseSectionQuickAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/adapter/base/BaseSectionQuickAdapter.java
+END
+BaseQuickAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/adapter/base/BaseQuickAdapter.java
+END
+BaseViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/adapter/base/BaseViewHolder.java
+END

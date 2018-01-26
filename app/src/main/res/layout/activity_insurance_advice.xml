@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_dialog"
+    android:orientation="vertical"
+    tools:context="com.ayj.chunmiao.activity.cmbz.insurance.InsuranceAdviceActivity">
+    <include layout="@layout/common_title_layout" />
+    <ImageView
+        android:id="@+id/bxempty"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@mipmap/bxempty"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="您可以通过官方热线提出理赔申请，或者前往您所在小区的春苗站点办理"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="爱医家保险为您提供全程协助理赔服务"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="让您更快捷，更省心，更放心"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="官方热线："/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0512-8694489"
+            android:textColor="@color/background_plate"/>
+    </LinearLayout>
+</LinearLayout>

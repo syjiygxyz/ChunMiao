@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MYSVN/!svn/ver/2594/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils
+END
+DataCleanManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/DataCleanManager.java
+END
+WebUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/2561/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/WebUtils.java
+END
+CircleTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/CircleTransform.java
+END
+GetJsonDataUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MYSVN/!svn/ver/1697/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/GetJsonDataUtil.java
+END
+GlideImageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MYSVN/!svn/ver/1687/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/GlideImageLoader.java
+END
+ValidationUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MYSVN/!svn/ver/1917/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/ValidationUtils.java
+END
+UpDateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MYSVN/!svn/ver/2534/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/UpDateUtils.java
+END
+CommonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MYSVN/!svn/ver/2519/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/CommonUtils.java
+END
+Prints.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MYSVN/!svn/ver/2594/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/Prints.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/2453/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/Constant.java
+END
+MD5Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/MD5Utils.java
+END
+ACache.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MYSVN/!svn/ver/1664/trunk/21ga_ios/ChunMiao/app/src/main/java/com/ayj/chunmiao/utils/ACache.java
+END

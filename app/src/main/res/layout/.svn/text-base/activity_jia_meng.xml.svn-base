@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/common_title_layout"/>
+
+    <Button
+        android:id="@+id/btn_join_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交申请"
+        android:textColor="@color/white"
+        android:background="@drawable/common_bt_no_corner"
+        android:layout_alignParentBottom="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_join_apply"
+        android:layout_marginTop="44dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dip"
+                android:paddingBottom="16dip">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="70dip"
+                        android:layout_height="40dip"
+                        android:src="@mipmap/zc_logo1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="赤脚保健服务加盟申请表"
+                        android:textSize="18dip"
+                        android:layout_marginLeft="8dip"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="申请人基本资料"
+                android:drawableLeft="@mipmap/wydl_sanjiao"
+                android:drawablePadding="8dip"
+                android:layout_margin="8dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/addrUnDefault"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_name"
+                    android:layout_alignTop="@id/tv_join_name"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_name"
+                    android:background="@null"
+                    android:hint="请输入姓名"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="性别"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_sex"
+                    android:layout_alignTop="@id/tv_join_sex"
+                    android:src="@mipmap/required"/>
+
+                <TextView
+                    android:id="@+id/spin_join_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请选择性别"
+                    android:gravity="center"
+                    android:layout_toRightOf="@id/iv_join_sex"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_edit_kuang">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dip"
+                        android:text="加盟地区"
+                        >
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/required"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginRight="4dip"
+                    android:orientation="horizontal"
+                    >
+
+                   <TextView
+                       android:id="@+id/tv_dq"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:hint="请选择加盟地区"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="详细地址"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_detail"
+                    android:layout_alignTop="@id/tv_join_detail"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_detail"
+                    android:background="@null"
+                    android:hint="请输入详细地址"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系方式"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_phone"
+                    android:layout_alignTop="@id/tv_join_phone"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_phone"
+                    android:background="@null"
+                    android:hint="请输入联系方式"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="常用邮箱"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_email"
+                    android:layout_alignTop="@id/tv_join_email"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_email"
+                    android:background="@null"
+                    android:hint="请输入常用邮箱"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身份证号"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_id"
+                    android:layout_alignTop="@id/tv_join_id"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_id"
+                    android:background="@null"
+                    android:hint="请输入身份证号"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="QQ号码"
+                    android:textSize="16dip"/>
+
+                <EditText
+                    android:id="@+id/et_join_qq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_qq"
+                    android:background="@null"
+                    android:hint="请输QQ号码"
+                    android:inputType="number"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_weixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信"
+                    android:textSize="16dip"/>
+
+                <EditText
+                    android:id="@+id/et_join_weixin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_weixin"
+                    android:background="@null"
+                    android:hint="请输入微信"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:layout_marginLeft="20dip"
+                android:text="添加身份证正反面"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_join_load_positive"
+                        android:layout_width="138dip"
+                        android:layout_height="88dip"
+                        android:src="@mipmap/tjsfz"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_join_load_negative"
+                        android:layout_width="138dip"
+                        android:layout_height="88dip"
+                        android:src="@mipmap/tjsfz"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="正面"
+                    android:gravity="center_horizontal"/>
+
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="反面"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邀请人信息"
+                android:layout_marginTop="32dip"
+                android:layout_marginLeft="8dip"
+                android:drawablePadding="8dip"
+                android:drawableLeft="@mipmap/wydl_sanjiao"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/addrUnDefault"
+                android:layout_marginTop="8dip"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_invite_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="邀请人姓名"
+                    android:textSize="16dip"/>
+
+
+                <EditText
+                    android:id="@+id/et_join_invite_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_invite_name"
+                    android:background="@null"
+                    android:hint="请输入邀请人姓名"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_invite_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="邀请人号码"
+                    android:textSize="16dip"/>
+
+
+                <EditText
+                    android:id="@+id/et_join_invite_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_invite_phone"
+                    android:background="@null"
+                    android:hint="请输入邀请人号码"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开设网店基本信息"
+                android:layout_marginTop="32dip"
+                android:layout_marginLeft="8dip"
+                android:drawablePadding="8dip"
+                android:drawableLeft="@mipmap/wydl_sanjiao"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/addrUnDefault"
+                android:layout_marginTop="8dip"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开设地点"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_addr"
+                    android:layout_alignTop="@id/tv_join_addr"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_addr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_addr"
+                    android:background="@null"
+                    android:hint="请输入开设地点"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_quarter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小区名称"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_quarter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_quarter"
+                    android:layout_alignTop="@id/tv_join_quarter"
+                    android:src="@mipmap/required"/>
+
+                <EditText
+                    android:id="@+id/et_join_quarter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_quarter"
+                    android:background="@null"
+                    android:hint="请输入小区名称"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小区档次"
+                    android:textSize="16dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_join_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_level"
+                    android:layout_alignTop="@id/tv_join_level"
+                    android:src="@mipmap/required"/>
+
+                <TextView
+                    android:id="@+id/spin_join_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_join_level"
+                    android:hint="请选择你的小区档次"
+                    android:gravity="center"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小区总户数"
+                    android:textSize="16dip"/>
+                i
+
+                <EditText
+                    android:id="@+id/et_join_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_count"
+                    android:background="@null"
+                    android:hint="请输入小区总户数"
+                    android:inputType="number"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_proportion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="入住率（%）"
+                    android:textSize="16dip"/>
+
+                <EditText
+                    android:id="@+id/et_join_proportion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_proportion"
+                    android:background="@null"
+                    android:hint="请输入入住率"
+                    android:inputType="number"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_shopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联盟店名称"
+                    android:textSize="16dip"/>
+
+                <EditText
+                    android:id="@+id/et_join_shopname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_shopname"
+                    android:background="@null"
+                    android:hint="请输入养生联盟店名称"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                android:padding="8dip"
+                android:background="@drawable/bg_edit_kuang">
+
+                <TextView
+                    android:id="@+id/tv_join_legalpersonidcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="法人身份证号"
+                    android:textSize="16dip"/>
+
+                <EditText
+                    android:id="@+id/et_join_legalpersonidcard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_join_legalpersonidcard"
+                    android:background="@null"
+                    android:hint="请输法人身份证号"
+                    android:textSize="14dip"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:layout_marginLeft="20dip"
+                android:text="实景上传"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dip"
+                android:layout_marginLeft="12dip"
+                android:layout_marginRight="12dip"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_load_realpic1"
+                        android:layout_width="92dip"
+                        android:layout_height="59dip"
+                        android:src="@mipmap/tjsfz"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_load_realpic2"
+                        android:layout_width="92dip"
+                        android:layout_height="59dip"
+                        android:src="@mipmap/tjsfz"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/iv_load_realpic3"
+                        android:layout_width="92dip"
+                        android:layout_height="59dip"
+                        android:src="@mipmap/tjsfz"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="上传"
+                    android:gravity="center_horizontal"/>
+
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="上传"
+                    android:gravity="center_horizontal"/>
+
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="上传"
+                    android:gravity="center_horizontal"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dip"
+                android:layout_marginLeft="8dip"
+                android:drawablePadding="8dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="阅读协议"
+                    android:drawableLeft="@mipmap/wydl_sanjiao"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="（请认真阅读加盟协议）"
+                    android:textSize="12dip"
+                    android:layout_marginLeft="4dip"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/addrUnDefault"
+                android:layout_marginTop="8dip"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="24dip"
+                android:paddingBottom="24dip">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true">
+
+                    <CheckBox
+                        android:id="@+id/cb_join_agreement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="经阅读本人同意"/>
+
+                    <TextView
+                        android:id="@+id/tv_join_agreement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="《用户加盟协议》"
+                        android:textColor="@color/blueText" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:textColor="@color/edit_text"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="小金库"/>
+        <CheckBox
+            android:id="@+id/cb_xjk"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <include layout="@layout/single_line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@mipmap/zf_shou"
+            android:text="第三方"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:textColor="@color/red" />
+
+        <CheckBox
+            android:id="@+id/cb_zfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/zfb_check"
+            android:textColor="@color/black"
+            android:text="支付宝"
+            android:background="@null"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:button="@null"
+            android:gravity="center"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/wx_check"
+            android:text="微信"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="13dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:button="@null" />
+    </LinearLayout>
+    <include layout="@layout/single_line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/edit_text"
+            android:textSize="16sp"
+            android:text="应付:"/>
+        <TextView
+            android:id="@+id/tv_totalmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:textColor="@color/orange_red"
+            android:textSize="16sp"
+            android:text=""/>
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/common_bt_no_corner"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="确认"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog_kuang"
+    >
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@mipmap/duihaog"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dip"/>
+
+    <TextView
+        android:id="@+id/dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dip"
+        android:lineSpacingExtra="6dip"
+        android:layout_marginTop="24dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:layout_gravity="center_horizontal"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_shopcart_exit"
+        android:layout_width="320dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:paddingTop="16dip"
+        android:paddingBottom="16dip"
+        android:text="返回"
+        android:textSize="24dip"
+        android:textColor="#FFFFFF"
+        android:background="@color/app_theme">
+    </Button>
+
+</LinearLayout>

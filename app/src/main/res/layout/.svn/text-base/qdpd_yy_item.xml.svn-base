@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:text="流水号"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:text="已开始"/>
+    <TextView
+        android:id="@+id/iv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="签到"
+        android:textColor="@color/light_green"
+        android:padding="5dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_vertical"
+        />
+</LinearLayout>

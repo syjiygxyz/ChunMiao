@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+   <include layout="@layout/common_title_layout"/>
+    <com.ayj.chunmiao.view.SmartImageView
+        android:id="@+id/iv_service"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#E6E6E6"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预约"
+            android:textSize="16dip"
+            android:textColor="@color/app_theme"/>
+
+        <com.ayj.chunmiao.view.AddAndSub.MyAddAndSubView
+            android:id="@+id/add_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dip"
+            app:min="0"/>
+
+        <Button
+            android:id="@+id/btn_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/app_theme"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:layout_marginLeft="12dip"
+            android:paddingTop="8dip"
+            android:paddingBottom="8dip"
+            android:paddingLeft="24dip"
+            android:paddingRight="24dip"/>
+
+    </LinearLayout>
+
+</LinearLayout>

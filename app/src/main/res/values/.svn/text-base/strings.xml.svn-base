@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">社区医养</string>
+    <!--BaseViewAdapter-->
+    <string name="loading">正在加载中...</string>
+    <string name="load_failed">加载失败，请点我重试</string>
+    <string name="load_end">没有更多数据</string>
+
+    <!--sweet Alert Dialog-->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="TheNetIsUnAble">当前网络不可用,请检查网络</string>
+    <string name="TheNetIsException">网络异常</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备中...</string>
+    <string name="bt_not_enabled">蓝牙没有启动</string>
+    <string name="select_device">请选择要连接的设备</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="has_paired">已配对</string>
+    <string name="not_paired">未配对</string>
+    <string name="rePaire_connect">重新配对并连接</string>
+    <string name="unpair">取消配对</string>
+    <string name="paire_connect">配对并连接</string>
+    <string name="connect_paired">连接</string>
+    <string name="select_options">选择操作</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="no_bounded_device">未找到名称以 %s 开头的设备</string>
+    <string name="title_paired_devices">已配对的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描新设备</string>
+    <!--门店管理-->
+    <array name="md_manage_titles">
+        <item>进货</item>
+        <item>销售</item>
+        <item>存量</item>
+    </array>
+
+    <!--现货架-->
+    <array name="xhj_titles">
+        <item>销售商品</item>
+        <item>体验商品</item>
+        <item>促销商品</item>
+    </array>
+
+    <!--服务点详情-->
+    <array name="fwd_titles">
+        <item>实景</item>
+        <item>服务员</item>
+        <item>评价</item>
+    </array>
+
+    <string name="ensure">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="cancel">取消</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+
+    <!--充值-->
+    <string name="cz_sm">1.已充金额可在爱医家平台的任何商城消费;\n2.凡在爱医家平台使用会员钱包一律8折结算（折扣铺除外）在折扣铺按照会员等级享受折扣;\n3.累积充值达到相应额度可以升级到相应的会员等级，在折扣店铺内可以按等级享受相应折扣，以此类推;\n4.最终解释权归爱医家平台所有</string>
+    <!--保险-->
+    <string name="insurance_platform_title">中联金安保险经纪第三方平台</string>
+    <string name="hot">热推</string>
+    <string name="carInsurance">车辆保险</string>
+    <string name="familyInsurance">家庭保险</string>
+    <string name="choiceness">精选</string>
+    <string name="accidentInsurance">意外保险</string>
+    <string name="propertyInsurance">财产保险</string>
+    <string name="insurance_name">姓名:</string>
+    <string name="insurance_price_all">商业险总价:</string>
+
+    <string name="pleaseWriteAddrInfo">请填写详细地址</string>
+    <string name="pleaseWritePostCode">请填写邮政编码</string>
+    <string name="pleaseWriteName">请填写收货人姓名</string>
+    <string name="pleaseWriteNum">请填写手机号码</string>
+    <string name="pleaseWriteContact">请填写联系方式</string>
+    <string name="pleaseWriteProvinceid">请填写省名称</string>
+    <string name="pleaseWriteCity">请填写市名称</string>
+    <string name="pleaseWriterAddr">请填写区名称</string>
+    <string name="pleaseWriteAreaNum">请填写区号</string>
+    <string name="pleaseWriteOtherNum">请填写座机号或者座机分机号</string>
+    <string name="pleaseWritePhoneNum">请正确填写手机号码</string>
+    <!--会员卡-->
+    <string name="hyk_main">3满足国家退休年龄的老人可选择康乐A卡(含低保人员),\n购买时需上传身份证正反面。</string>
+    <string name="hyk_detail">1.满足国家法定退休年龄的老人（含低\n保人员）购买，购买时需上传身份证正\n反面。\n\n2.会员可以每天任选艾灸，超声，汗蒸\n进行预约，在预约时间后的两小时内到\n店即可服务，一天一次，不可叠加；\n\n3.会员可以每天到康乐小屋领取1500ml\n的富氢水，领取时需自带容器</string>
+
+    <string name="prb_default_symbolic_string">$</string>
+
+    <string name="umeng_sharebutton_custom">客户圈</string>
+</resources>

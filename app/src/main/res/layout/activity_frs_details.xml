@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ayj.chunmiao.activity.khq.FrsDetailsActivity">
+    <include layout="@layout/common_title_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_water"
+                android:layout_width="300dip"
+                android:layout_height="162dip"
+                android:background="@mipmap/frensk"
+                android:layout_marginTop="16dip"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_water_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="百姓富人水月卡"
+                    android:textColor="@color/white"
+                    android:textSize="24dip"
+                    android:layout_centerInParent="true"/>
+
+                <TextView
+                    android:id="@+id/tv_water_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="有效期：1年"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="16dip"
+                    android:paddingRight="16dip"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_water_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥2800"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:paddingRight="16dip"
+                    android:paddingBottom="36dip"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@color/white"
+                android:padding="12dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="内容详情"
+                    android:textSize="17dip"
+                    android:layout_marginLeft="8dip"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dip">
+
+                    <TextView
+                        android:id="@+id/tv_package_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="领取富氢水1500ml/日"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_water_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="详情"
+                        android:textSize="12dip"
+                        android:textColor="@color/app_theme"
+                        android:background="@drawable/bg_edittext"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_marginTop="16dip"
+                android:padding="8dip"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="说明"
+                    android:textSize="17dip"
+                    android:layout_marginLeft="8dip"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dip"
+                    android:layout_marginLeft="8dip"
+                    android:text="①会员可以每天到康乐小屋领取1500ml的富氢水，领取时需自带容器；"
+                    android:lineSpacingExtra="2dip"/>
+
+
+                <TextView
+                    android:id="@+id/tv_water_time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dip"
+                    android:text="②有效期365天"
+                    android:layout_marginLeft="8dip"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_buy_water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同意并购买"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_dialog_kuang2"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

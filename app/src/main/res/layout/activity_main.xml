@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_theme"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgTools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbHome"
+                android:layout_width="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:textSize="10sp"
+                android:paddingTop="2dp"
+                android:background="@null"
+                android:drawableTop="@drawable/main_tab_selector"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:paddingLeft="0dp"
+                android:text="主页"/>
+
+            <RadioButton
+                android:id="@+id/rbShop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:textColor="@color/white"
+                android:checked="false"
+                android:textSize="10sp"
+                android:paddingTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:drawableTop="@drawable/sb_tab_selector"
+                android:gravity="center"
+                android:text="设备管理"/>
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/rbMessage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:paddingTop="2dp"
+                android:textColor="@color/white"
+                android:background="@null"
+                android:drawableTop="@drawable/dy_tab_selector"
+                android:gravity="center"
+                android:text="店员管理"/>
+        </RadioGroup>
+
+    </LinearLayout>
+</LinearLayout>

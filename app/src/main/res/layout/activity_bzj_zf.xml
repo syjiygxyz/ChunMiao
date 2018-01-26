@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_gray"
+    tools:context="com.ayj.chunmiao.activity.myinformation.lxshh.BzjZfActivity">
+    <include layout="@layout/common_title_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_text"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_30"
+            android:text="需付保证金金额"/>
+        <TextView
+            android:id="@+id/tv_total_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center_horizontal"
+            android:textColor="@color/orange_red"
+            android:textSize="@dimen/dp_20"
+            android:text="￥500"/>
+        <TextView
+            android:id="@+id/tv_snid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:textColor="@color/edit_text"
+            android:text="订单编号:"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_15"
+        android:background="@drawable/common_bt_no_corner"
+        android:text="支付"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

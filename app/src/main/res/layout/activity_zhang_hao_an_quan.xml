@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical"
+    tools:context="com.ayj.chunmiao.activity.myinformation.anquan.ZhangHaoAnQuanActivity">
+    <include layout="@layout/common_title_layout"></include>
+    <RelativeLayout
+        android:id="@+id/rl_changepwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ripple_bg">
+
+        <TextView
+            android:id="@+id/tv_changepwd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:text="修改登录密码"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_changepwd"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:gravity="center_vertical"
+            android:textColor="@color/red"
+            android:text="(忘记密码)"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:background="@mipmap/item_more" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d7d7d7" />
+    <RelativeLayout
+        android:id="@+id/rl_setpaypwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ripple_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:textSize="16sp"
+            android:text="设置支付密码" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:background="@mipmap/item_more" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d7d7d7" />
+    <RelativeLayout
+        android:id="@+id/rl_changepaypwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ripple_bg">
+
+        <TextView
+            android:id="@+id/tv_changepaypwd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:textSize="16sp"
+            android:text="修改支付密码" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_changepaypwd"
+            android:textColor="@color/red"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:text="(忘记密码)"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="13dp"
+                android:background="@mipmap/item_more" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d7d7d7" />
+</LinearLayout>

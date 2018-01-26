@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_theme">#2e5250</color>
+    <!-- 消费券未消费提醒字体颜色 -->
+    <color name="no_consumer">#ff7300</color>
+    <!--my-sheet-item-bg-->
+    <color name="my_sheet_item_bg">#eeeeee</color>
+    <!--按钮按下去颜色-->
+    <color name="app_theme_press">#1D3535</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--sweet Alert Dialog-->
+    <color name="welfare">#e44d17</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#f43329</color>
+    <color name="blue_btn_bg_pressed_color">#e0271d</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="orange">#FF9900</color>
+    <color name="orange_red">#ff4400</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="bg_lxsh">#d6f4e1</color>
+    <!--red color-->
+    <!-- imageView边框颜色 -->
+    <color name="cancel_btn_color">#ff3329</color>
+    <color name="cancel_btn_press_color">#cccccc</color>
+    <color name="dark_gray">#f9f9f9</color>
+    <color name="white">#ffffff</color>
+    <color name="edit_hint">#999</color>
+    <color name="edit_text">#333</color>
+    <color name="black">#000000</color>
+    <color name="main_text">#333333</color>
+    <color name="main_dialog">#f1f1f1</color>
+    <color name="item_divide">#ebeef1</color>
+    <color name="text_grey">#333333</color>
+    <color name="btn_grey">#6B8383</color>
+    <color name="qdpd_background">#fafcfd</color>
+    <color name="light_green">#2c9a15</color>
+    <color name="partTranslucent">#39000000</color>
+    <color name="hintTextColor">#c1c1c1</color>
+    <!-- 设备背景颜色2 -->
+    <color name="background_plate">#00CCFF</color>
+    <color name="background_plate1">#00a7d2</color>
+
+    <color name="background_device2" >#f2f0f0</color>
+    <color name="errorColor">#ff5555</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="bank_bg_color">#d6af87</color>
+    <color name="grey21">#363636</color>
+    <!-- 分类灰色文字 -->
+    <color name="titleLimitToBuy">#848484</color>
+
+    <color name="divider">#999</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="red">#FD2E2E</color>
+    <!-- 应用提示文字的红色 -->
+    <color name="blackText">#333333</color>
+    <!-- 个人中心空隙颜色 -->
+    <color name="settingGapColor">#e4e4e4</color>
+
+    <color name="addrUnDefault">#fe8c02</color>
+    <!-- 纯黑 -->
+    <color name="blueText">#003ced</color>
+    <color name="deep_blue_text">#00A8EC</color>
+        <drawable name="text_color_checked">#ffffff</drawable>
+        <drawable name="text_color_normal">#2e5250</drawable>
+
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ripple_bg"
+    android:id="@+id/rl_item"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_height="40dp">
+    <TextView
+        android:id="@+id/tv_gw_count"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/yellow_corner"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户兑换记录"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"/>
+    <ImageView
+        android:id="@+id/iv_is_show"
+        android:tag="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/btn_down"/>
+</RelativeLayout>

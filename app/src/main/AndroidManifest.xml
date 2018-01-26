@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ayj.chunmiao">
+
+    <!-- wechat start -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- wechat end -->
+    <!-- 蓝牙 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- alipay start -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- alipay end -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- umeng -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <application
+        android:name=".AyjSwApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/cmdlogo1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:icon">
+
+        <!-- 友盟 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="595f3168f29d983b150015df" />
+
+        <!-- 安卓7.0版本更新问题 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.ayj.chunmiao.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!-- for wechat pay -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|navigation"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- for alipay sdk -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <!-- qqshare -->
+        <activity
+            android:name="com.umeng.qq.tencent.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.umeng.qq.tencent.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- wbshare -->
+        <activity
+            android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- wxshare -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.DemoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle_FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".utils.lanya.BluetoothDeviceList"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <!-- <activity -->
+        <!-- android:name=".UsbDeviceList" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@android:style/Theme.Dialog" /> -->
+        <!-- <activity android:name=".IpAddressEdit" android:theme="@style/MyDialogStyle" /> -->
+        <activity
+            android:name=".activity.menbermanage.MyDyDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.MyCenterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.MyInformationDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.XgPassWordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.mdmanger.MdManageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.common.CustomActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.dzc.DzcActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.base.NewsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.dzc.SfzNoRegistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.CmbzActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.yy.YdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.yy.CardYyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.xsjl.XsjlMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.xsjl.XslsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmxd.CmxdMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.common.CommonSpListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.fwq.FwqListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.fwq.FwqDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.cz.CzActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.InsuranceMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.clxx.VehicleInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.CgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.common.CommonShoppingDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.InsuranceAdviceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.bjfk.InsuranceFeedbackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.common.CommonGwcActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.shopping.AddAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.cmbz.insurance.bjfk.InsurancePriceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.common.CommonZfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.InsurancePlaceOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.hyk.HykDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.hyk.HykMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.InsurancePaytypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.hyk.HykZfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.clbx.InsuranceCarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.clbx.InsuranceCompanyShowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.clbx.InsuranceBrokerShowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.clbx.InsuranceCarSetOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.tc.TcMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.tc.TcDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.KhqActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.FrsDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.yyb.YybActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.yyb.FootYybActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.hc.HcActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.cxj.CxjActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.hc.HcPostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.zsjm.PartnerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.zsjm.DaiLiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.ykfx.YkfxMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.ykfx.YkfxDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.clxx.CommonClFormActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.myBx.MyBxListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.myBx.MyBxDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.myBx.BxZfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.myBx.BxBdShowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.CommonBxListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.CommonViewPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.CommonBxDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.CommonBxPostOne"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.BxLjtb2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.CommonBxPostDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.common.CommonZfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.bdcz.BdczMainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.insurance.bdcz.CzyZfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.zsjm.JiaMengActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.xhj.XhjCgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.xhj.XhjCgDanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.xhj.XhjDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.xhj.KcXhjActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.xhj.XhjBuyNowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.czjr.CzAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.khq.KhqHeadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.hc.HcCgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.lx.LxActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.mdlx.MdLxActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.yy.YyPostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.anquan.ZhangHaoAnQuanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.setting.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.jinku.XJKActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.jinku.JkCzorTxActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.jinku.JKyanzhengActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.mdlx.lxsb.LxsbActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.lxshh.LxshActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.lxshh.LxHtActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.bzj.MyBzjActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.mymoney.MoneyLsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.jf.JfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cg.JfCzActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.jinku.TxAcountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.jinku.BankAcountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.anquan.UpdataShopPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.shoporder.ShopOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.lxd.LxdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.shoporder.StockOrderDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.wujuan.WjActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.dashang.DashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.dashang.DasHisActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.dashang.ZwActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.dashang.DasEbActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.lxd.UnionShareHisActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.lxd.UnionShareDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.mdlx.MdLxDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.xiaoxi.XiaoXiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.dashang.DaswDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.lx.LxListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.ApplyEmployeeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.jf.JfMxActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.cmbz.yy.YyDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.common.DhActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.jb.JbActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.setting.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.anquan.ChangePayPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.myinformation.lxshh.BzjZfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity
+            android:name=".activity.kc.xhj.KcXhcDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+        <activity android:name=".activity.GetPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myAppTheme" />
+    </application>
+
+</manifest>

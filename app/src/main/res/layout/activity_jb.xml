@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.ayj.chunmiao.activity.kc.jb.JbActivity">
+    <include layout="@layout/common_title_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tv_pt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/dp_8"
+            android:text="平台产生量:"
+            android:textColor="@color/edit_text"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_pt"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/blue_button_background"
+            android:gravity="center"
+            android:text="明细"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <include layout="@layout/single_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:id="@+id/tv_duihuan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/dp_8"
+                android:text="已兑换量:"
+                android:textColor="@color/edit_text"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btn_duihuan"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/blue_button_background"
+                android:gravity="center"
+                android:text="明细"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <include layout="@layout/single_line" />
+</LinearLayout>
